@@ -1,0 +1,31 @@
+{
+  "name": "skyconsole-colorify",
+  "version": "1.0.0",
+  "description": "A library to colorify your console logs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shobhitsky1144/skyconsole-colorify.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Shobhit Yadav <skykkc1144@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shobhitsky1144/skyconsole-colorify/issues"
+  },
+  "homepage": "https://github.com/Shobhitsky1144/skyconsole-colorify#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
